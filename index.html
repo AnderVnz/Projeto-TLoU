@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilo.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;300;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/imagens/Favicon.ico" type="image/x-icon">
+    <title>The Last of Us - Part II</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/TLOUvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="Tatuagem da Ellie">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/imagem-título.png" alt="Título do jogo">
+            <p class="descricao">Cincos anos depois após uma jornada perigosa em um mundo pós-pandêmico, Joel e Ellie se estabiliza em Jackson, uma comunidade liderada pelo irmão de Joel, Tommy. A paz proporcionada a eles acaba por causa de um evento violento, então Ellie parte em uma nova jornada em busca de justiça.
+            Enquanto vai atrás dos responsáveis, ela se depara e confronta o caminho violento e devastador das suas atitudes e ações.
+            </p>
+            <button class="botao-trailer">Trailer</button>
+        </div>
+        <img class="ellie" src="./src/imagens/ellie2.png" alt="Ellie">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="./src/video/trailer-modal.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./src/JS/index.js"></script>
+</body>
+
+</html>
